@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada&display=swap');
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	
+	
+}
+
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -41,6 +60,7 @@
         width: 50%;
         li {
             margin-bottom: 30px;
+            width: 70%;
         }
 
         .btn {
@@ -70,7 +90,42 @@
     }
 }
 
-.section {
-    height: 300px;
+section {
+    width: 100%;
+}
+
+.section_structure {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(149,219,239,1);
+    background: -moz-linear-gradient(left, rgba(149,219,239,1) 0%, rgba(149,219,239,1) 30%, rgba(116,206,231,1) 57%, rgba(63,184,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(149,219,239,1)), color-stop(30%, rgba(149,219,239,1)), color-stop(57%, rgba(116,206,231,1)), color-stop(100%, rgba(63,184,217,1)));
+    background: -webkit-linear-gradient(left, rgba(149,219,239,1) 0%, rgba(149,219,239,1) 30%, rgba(116,206,231,1) 57%, rgba(63,184,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(149,219,239,1) 0%, rgba(149,219,239,1) 30%, rgba(116,206,231,1) 57%, rgba(63,184,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(149,219,239,1) 0%, rgba(149,219,239,1) 30%, rgba(116,206,231,1) 57%, rgba(63,184,217,1) 100%);
+    background: linear-gradient(to right, rgba(149,219,239,1) 0%, rgba(149,219,239,1) 30%, rgba(116,206,231,1) 57%, rgba(63,184,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95dbef', endColorstr='#3fb8d9', GradientType=1 );
+}
+
+.structure {
+    border: 1px black solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 30px;
+    img {
+        margin-left: 50px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.structures {
+    display: flex;
+    justify-content: space-between;
+    .image {
+        padding-top: 50px;
+    }
 }
 
