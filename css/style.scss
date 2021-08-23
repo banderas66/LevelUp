@@ -208,3 +208,72 @@ section {
         border: 1px solid rgb(255, 255, 255);
     }
 }
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0;
+    background: rgba(210,255,82,1);
+    background: -moz-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+    background: -webkit-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -o-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: -ms-linear-gradient(left, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+}
+
+.container_form {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.form_name {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form_timer {
+    padding-bottom: 50px;
+}
+
+.form_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_price {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form_photo {
+    padding-bottom: 20px;
+    text-align: center;
+    img {
+        width: 60%;
+    }
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.new_price {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes slidein {
+    from {
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: -10%;
+        width: 100%;
+    }
+}

@@ -200,3 +200,71 @@ section {
   color: white;
   border: 1px solid white;
 }
+
+.form {
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0;
+  background: #d2ff52;
+  background: -moz-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d2ff52), color-stop(100%, #91e842));
+  background: -webkit-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  background: -o-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  background: -ms-linear-gradient(left, #d2ff52 0%, #91e842 100%);
+  background: linear-gradient(to right, #d2ff52 0%, #91e842 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
+}
+
+.container_form {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form_name {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form_timer {
+  padding-bottom: 50px;
+}
+
+.form_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_price {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form_photo {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.form_photo img {
+  width: 60%;
+}
+
+.old_price {
+  text-decoration: line-through;
+}
+
+.new_price {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 100%;
+  }
+  to {
+    margin-left: -10%;
+    width: 100%;
+  }
+}
