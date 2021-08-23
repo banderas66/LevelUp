@@ -60,22 +60,23 @@ time, mark, audio, video {
   margin-bottom: 30px;
   width: 70%;
 }
-.photo_and_spec .spec .btn {
+
+.btn {
   background: none;
   border: none;
   font-size: 20px;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 3px;
   width: 160px;
   height: 40px;
   margin-left: 40px;
 }
-.photo_and_spec .spec .btn:hover {
+.btn:hover {
   -webkit-box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.75);
 }
-.photo_and_spec .spec .btn:active {
+.btn:active {
   -webkit-box-shadow: 0px 0px 65px 16px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 65px 16px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 65px 16px rgba(0, 0, 0, 0.75);
@@ -96,6 +97,10 @@ section {
   background: -ms-linear-gradient(left, #95dbef 0%, #95dbef 30%, #74cee7 57%, #3fb8d9 100%);
   background: linear-gradient(to right, #95dbef 0%, #95dbef 30%, #74cee7 57%, #3fb8d9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95dbef', endColorstr='#3fb8d9', GradientType=1 );
+}
+
+.btn_structure {
+  text-align: center;
 }
 
 .structure {
@@ -179,8 +184,19 @@ section {
   padding-top: 50px;
 }
 
+.about_spec {
+  padding-bottom: 50px;
+}
 .about_spec li {
   width: 400px;
   display: inline-block;
   text-align: center;
+}
+
+.btn_about {
+  text-align: center;
+}
+.btn_about .btn {
+  color: white;
+  border: 1px solid white;
 }
