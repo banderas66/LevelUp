@@ -277,3 +277,49 @@ section {
         width: 100%;
     }
 }
+
+.form input {
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    font-size: 20px;
+    background: none;
+    display: block;
+}
+
+.form-label {
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.form-item {
+    vertical-align: top;
+    position: relative;
+}
+
+.form-input:focus~.form-label,
+.form-input:not(:focus):valid~.form-label {
+	top: -10px;
+	font-size: 15px;
+}
+
+.form_form {
+    .btn {
+        margin: 0;
+        width: 400px;
+        height: 60px;
+    }
+}
