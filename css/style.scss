@@ -152,7 +152,7 @@ section {
     border: 1px solid black;
     border-radius: 7px;
     display: flex;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
     .rev_photo {
         width: 10%;
@@ -161,5 +161,38 @@ section {
 
     .rev_name {
         padding-bottom: 10px;
+    }
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+    background: rgba(203,96,179,1);
+    background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 53%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(53%, rgba(193,70,161,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 53%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 53%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 53%, rgba(219,54,164,1) 100%);
+    background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 53%, rgba(219,54,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );
+}
+
+.about_inner {
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 50px;
+    .about_text {
+        width: 40%;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+}
+
+.about_spec {
+    li {
+        width: 400px;
+        display: inline-block;
+        text-align: center;
     }
 }
