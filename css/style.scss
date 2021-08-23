@@ -26,10 +26,12 @@ time, mark, audio, video {
 
 .header {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
     .title {
         font-size: 20px;
         text-align: center;
-        padding-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 60px;
     }
 
     .bgvideo {
@@ -42,8 +44,6 @@ time, mark, audio, video {
         height: auto;
         z-index: -9999;
     }
-
-    margin-bottom: 100px;
 }
 
 .photo_and_spec {
@@ -72,7 +72,7 @@ time, mark, audio, video {
             border-radius: 2px;
             width: 160px;
             height: 40px;
-            margin-top: 50px;
+            // margin-top: 50px;
             margin-left: 40px;
 
             &:hover {
