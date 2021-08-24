@@ -23,7 +23,6 @@ time, mark, audio, video {
 
 .header {
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 50px;
 }
 .header .title {
   font-size: 20px;
@@ -58,7 +57,6 @@ time, mark, audio, video {
 }
 .photo_and_spec .spec li {
   margin-bottom: 30px;
-  width: 70%;
 }
 
 .btn {
@@ -152,7 +150,10 @@ section {
   margin-bottom: 20px;
 }
 .review .rev_photo {
-  width: 10%;
+  width: 100px;
+}
+.review .rev_img {
+  width: 100px;
   margin-right: 10px;
 }
 .review .rev_name {
@@ -319,4 +320,81 @@ section {
   color: black;
   font-size: 40px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+
+  .about ul {
+    width: 900px;
+    text-align: center;
+  }
+  .about ul li {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .spec {
+    padding-bottom: 10px;
+  }
+
+  .about ul {
+    width: 700px;
+  }
+
+  .about_photo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .about_text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+
+  .header li {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .structures {
+    display: block;
+  }
+
+  .blocks {
+    display: flex;
+  }
+
+  .structure img {
+    margin-left: 40px;
+  }
+
+  .image {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .about ul {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+
+  .spec {
+    padding-bottom: 0;
+  }
 }
