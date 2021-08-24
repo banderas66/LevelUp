@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="startTimer()">
     
     <header class="header">
 
@@ -260,7 +260,7 @@
 
             <div class="form_timer">
 
-                <script src="//megatimer.ru/get/13ed25e056f530840cb588b22a8a6dd8.js"></script>
+                <p><span id="my_timer">00:30:00</span></p>
                 
             </div>
 
@@ -314,5 +314,6 @@
 
     </footer>
     <script src="/js/scroll.js"></script>
+    <script src="/js/timer.js"></script>
 </body>
 </html>

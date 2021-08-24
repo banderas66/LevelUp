@@ -226,6 +226,7 @@ section {
 
 .form_timer {
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .form_inner {
@@ -310,4 +311,12 @@ section {
   margin: 0;
   width: 400px;
   height: 60px;
+}
+
+#my_timer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
 }
